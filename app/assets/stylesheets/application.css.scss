@@ -22,7 +22,7 @@
      font-family: 'Open Sans', sans-serif;
  }
 
-body, .navbar {
+.navbar, .home-callout {
  //gradient provided by A little thing by @_ighosh
  background: #093028; /* fallback for old browsers */
 background: -webkit-linear-gradient(to left, #093028 , #237A57); /* Chrome 10-25, Safari 5.1-6 */
@@ -31,4 +31,11 @@ background: linear-gradient(to left, #093028 , #237A57); /* W3C, IE 10+/ Edge, F
 
 .navbar {
  border: none;
+}
+
+.home-callout {
+    margin-top: -20px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    color: white;
 }
